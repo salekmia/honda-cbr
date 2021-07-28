@@ -1,0 +1,22 @@
+/**************\
+Header Section
+\**************/
+.hero-bg {
+   background: #264653;
+}
+
+.custom-btn {
+   background: #E76F51;
+   padding: 10px 40px;
+}
+
+.custom-btn:focus,
+.custom-login:focus {
+   box-shadow: none;
+   outline: none;
+}
+
+.custom-login {
+   background: #E76F51;
+   padding: 8px 20px;
+}
