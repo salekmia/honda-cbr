@@ -20,3 +20,20 @@ Header Section
    background: #E76F51;
    padding: 8px 20px;
 }
+
+.custom-color {
+   color: #E76F51;
+}
+
+
+
+/**************\
+Main Section
+\**************/
+.feature-bike-one {
+   filter: sepia(100%);
+ }
+
+ .feature-bike-three {
+   filter: grayscale(100%);
+ }
