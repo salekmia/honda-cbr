@@ -4,28 +4,22 @@ Header Section
 .hero-bg {
    background: #264653;
 }
-
 .custom-btn {
    background: #E76F51;
    padding: 10px 40px;
 }
-
 .custom-btn:focus,
 .custom-login:focus {
    box-shadow: none;
    outline: none;
 }
-
 .custom-login {
    background: #E76F51;
    padding: 8px 20px;
 }
-
 .custom-color {
    color: #E76F51;
 }
-
-
 
 /**************\
 Main Section
@@ -33,7 +27,94 @@ Main Section
 .feature-bike-one {
    filter: sepia(100%);
  }
-
  .feature-bike-three {
    filter: grayscale(100%);
  }
+
+/**************\
+Bonus Section
+Team Section
+\**************/
+.single-box {
+   margin-bottom: 60px;
+   width: 100%;
+   min-height: 330px;
+   text-align: center;
+   color: #fff;
+   background: #262626;
+   padding: 20px;
+   border-radius: 15px;
+}
+.text-area {
+   color: #fff;
+   top: 120px;
+   left: 50%;
+   transform: translate(-50%);
+   width: 100%;
+   padding: 30px;
+}
+
+.text-area h2{
+   font-size: 25px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+}
+.text-area p {
+   font-size: 14px;
+}
+.text-area ul li {
+   list-style: none;
+   margin: 0 10px;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   background: rgba(0, 0, 0, 0.25);
+}
+.text-area ul li a{
+   line-height: 40px;
+   font-size: 20px;
+   color: #fff;
+   padding: 10px;
+}
+.img-area {
+   width: 100px;
+   height: 100px;
+   border: 3px solid #fff;
+   top: 15px;
+   left: 50%;
+   transform: translate(-50%);
+}
+.carousel-indicators [data-bs-target] {
+   width: 10px;
+   height: 10px;
+   border-radius: 50%;
+   background-color: #E76F51;
+}
+
+/**************\
+Bonus Section
+Contact Section
+\**************/
+.contact-bg {
+   background-image: linear-gradient(45deg, #6441a5, #2a0845);
+}
+.icon-box {
+   width: 35px;
+   height: 35px;
+   border: 3px solid #fff;
+   border-radius: 50%;
+}
+.icon-box i {
+   line-height: 40px;
+   font-size: 17px;
+}
+
+/**************\
+Footer Section
+\**************/
+.footer-bg {
+   background: #0B0D17;
+}
+.footer-bg ul li {
+   list-style: none;
+}
